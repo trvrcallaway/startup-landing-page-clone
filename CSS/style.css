@@ -100,3 +100,35 @@ table {
   cursor: pointer;
   color: #333333;
 }
+
+/*Larger Header with Image*/
+.introduction {
+  background-image: url('../images/DSC_0631_1_900.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introduction h1, .introduction h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+button {
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  font-size: 1.125rem;
+}
