@@ -30,6 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
 }
 ol, ul {
   list-style: none;
@@ -45,4 +50,15 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* Nav Bar */
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
 }
