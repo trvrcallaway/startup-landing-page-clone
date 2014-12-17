@@ -31,18 +31,27 @@ footer, header, hgroup, menu, nav, section, button {
 }
 body {
   line-height: 1;
-  background-color: LightGray;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
   letter-spacing: 0.03em;
 }
 
-div {
-  border: 1px solid Chocolate;
-}
+
+
 ol, ul {
   list-style: none;
+}
+
+ul, menu, dir {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkot-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
 }
 blockquote, q {
   quotes: none;
@@ -68,7 +77,7 @@ table {
 
 .top-navigation > .content {
   width: 970px;
-  height: 70px;
+  height: 4.375rem;
   margin: 0 auto;
 }
 
@@ -165,4 +174,46 @@ ul.flexbox {
   justify-content: space-around;
   padding: 0;
   margin-top: 1.5rem;
+}
+
+/* Footer */
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+@media (min-width: 75rem)
+.content {
+  width: 60%;
+}
+
+.content {
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+
+.social .instagram {
+  color: #3f729b;
 }
