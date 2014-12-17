@@ -26,7 +26,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, button {
   display: block;
 }
 body {
@@ -61,6 +61,9 @@ table {
 /* Nav Bar */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -107,12 +110,16 @@ table {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 470px;
 }
 
 .introduction h1 {
-  margin-top: 17.5rem;
+  margin-top: 10.5rem;
   font-size: 3.125rem;
+}
+
+.introduction h3 {
+  margin-top: 2.2rem;
 }
 
 .introduction h1, .introduction h3 {
@@ -121,14 +128,41 @@ table {
   font-weight: 300;
 }
 
-button {
+.big-button {
   width: 9.688rem;
   background-color: #f15a29;
   border-color: #f15a29;
   text-shadow: none;
   border-style: none;
   border-radius: 4px;
-  padding: 1rem 1.5rem;
+  padding: 16px 26px;
   color: #fff;
   font-size: 1.125rem;
+  line-height: 1.33;
+  margin: 0 auto;
+  margin-top: 2.2rem;
+}
+
+.big-button:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+/*Three Badge Section*/
+.cases {
+  background-color: #fff;
+}
+.content h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.5em;
+  font-size: 3.125em;
+}
+
+ul.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 1.5rem;
 }
