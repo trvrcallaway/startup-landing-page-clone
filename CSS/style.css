@@ -71,6 +71,7 @@ table {
 .top-navigation {
   background-color: #fff;
   position: fixed;
+  top: 0px;
   width: 100%;
   z-index: 9999;
 }
@@ -120,6 +121,7 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   height: 470px;
+  overflow: auto;
 }
 
 .introduction h1 {
